@@ -26,7 +26,8 @@
 	font-style: normal;
 }
 
-.ff-extra-bold, .example-color, .navbar-brand,.title, .tooltip{
+.ff-extra-bold, .example-color, .navbar-brand,.title, .tooltip, 
+.order-number span{
 	font-family: 'Raleway-ExtraBold';
 }
 .ff-semi-bold, .navbar-nav a, .semi-bold-title{
@@ -101,6 +102,9 @@
     
 }
 /* Tools */
+body{
+	overflow-x: hidden;
+}
 .hidden{
 	display: none;
 }
@@ -162,6 +166,9 @@ a.color-dark-contrast,
 }
 .pink-bgr{
 	background: url(../images/pink-bgr.png);
+}
+.pink-bgr-color{
+	background: #ffb5cf;
 }
 .pink-road-sign{
 	background: url(../images/pink-road-sign.png) no-repeat;
@@ -435,6 +442,12 @@ a.color-dark-contrast,
 	display:inline-block;
 	padding:7px 30px 8px 20px
 }
+.road-sign-stright-left{
+	background: url(../images/road-sign-stright-left.png) no-repeat;
+	background-size: cover; 
+	display:inline-block;
+	padding: 20px 50px 20px 40px;
+}
 .buy-product .road-sign-reg{
 	padding: 7px 0px 7px 40px;
 }
@@ -461,6 +474,11 @@ a.color-dark-contrast,
 .read-more-btn.btn-extra-big{
 	display: inline-block;
 	padding: 15px 50px 15px 40px;
+	position: relative;
+} 
+.road-sign-stright-left.btn-extra-big{
+	display: inline-block;
+	padding: 20px 50px 20px 40px;
 	position: relative;
 } 
 .btn-pink .color-arrow{
@@ -642,6 +660,12 @@ a.color-dark-contrast,
 	margin:  auto;
 	height: 20px;
 	left: 0;
+}
+.hedige-appear-from-right{
+	position: absolute;
+    top: 550px;
+    right: -150px;
+    width: 660px;
 }
 .error-bubble.status-bubble span{
 	transform: rotate(20deg);
@@ -1341,4 +1365,50 @@ header .navbar{
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
+}
+
+/* instal stesp*/
+.install-step-holder{
+	display: inline-block;
+}
+.order-number{
+	background: url(../images/order-number-bgr.png) no-repeat;
+	height: 100px;
+	width: 115px;
+	background-size: cover;
+	position:  relative;
+	background-position:center;
+	display:  inline-block;
+}
+.order-number span{
+	position:absolute;
+	display:inline-block;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	font-size: 65px;
+	line-height: 30px;
+	width: 75px;
+	height: 50px;
+	color:#fff;
+	font-weight:bold;
+	/* background:gold; */
+}
+.install-step-item .title-row{
+	height: 100px;
+	vertical-align: top;
+/* 	background:pink; */
+	position:relative;
+	display:  inline-block;
+	width: 100%;
+}
+.install-step-item .title-row h2{
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+	/* line-height:  90px; */
+	height: 75px;
 }
