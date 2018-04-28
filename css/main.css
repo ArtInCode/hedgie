@@ -40,6 +40,9 @@
 .ff-medium{
 	font-family: 'Raleway', sans-serif;
 }
+.huge-title{
+	font-size: 80px;
+}
 .fs-extra-lg{
 	font-size: 45px;
 }
@@ -114,7 +117,25 @@ a:hover{
 .dark-color,.green-circle{
 	color: #20041f;
 }
-
+.color-dark-contrast{
+	color: #053d40;
+}
+.color-ex-dark{
+	color:#022426
+}
+.arrow-down-dark.color-dark-contrast:before{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #053d40 transparent transparent transparent;
+	right:10px;
+	position:absolute;
+	top:32px;
+	
+}
 .color-contrast{
 	color: #12dfc0
 }
@@ -1412,3 +1433,99 @@ header .navbar{
 	/* line-height:  90px; */
 	height: 75px;
 }
+
+/*presale-wrap*/
+.presale-wrap{
+	background: url(../images/hedgie-presale-main-bgr.jpg) no-repeat;
+	background-size: cover;
+	background-position:top center; 
+}
+.color-picker-tool-wrap{
+	background: url(../images/dark-ground-stick.png) no-repeat;
+	background-position: 130px 100%;
+	padding-bottom: 150px;
+	margin-left: -50px;
+}
+.presale-wrap-inner,
+.color-picker-wrap{
+	padding-top: 350px;
+}
+.product-info{
+	padding-top: 180px;
+}
+.simple-road-sign-right .simple-road-sign-content{
+	position: absolute;
+	top: 70px;
+	left: 50px;	
+}
+.simple-road-sign-left  .simple-road-sign-content{
+	position: absolute;
+	top: 90px;
+	right: 100px;
+}
+.simple-road-sign-right .simple-road-map{
+	margin-left: -50px;
+}
+.example-result{
+	position: absolute;
+    max-width: 550px;
+    right: -110px;
+    bottom: -270px;
+}
+.simple-road-sign-left {
+	/*margin-right: -50px;*/
+}
+.simple-road-sign-content{
+	width: 58%;	
+}
+.simple-road-sign-right,
+.simple-road-sign-left{
+	max-width: 685px;
+}
+.leavs-arround-road-sign{
+	position: absolute;
+    width: 350px;
+    bottom: 0;
+    right: -150px;
+}
+.leavs-arround-road-sign-left{
+	position: absolute;
+	width: 350px;
+	bottom: 70px;
+	left: -80px;
+}
+/* complete-list-holder */
+.complete-list-holder{
+	padding-top: 70px;
+}
+.contrast-bubble-left{
+	background: url(../images/contrast-bubble-left.png) no-repeat;
+	padding: 25px 80px 10px 80px;
+	display: inline-block;
+}
+.complete-list-label{
+	position: relative;
+}
+/*make-your-hedgie*/
+.make-your-hedgie{
+	padding: 30px 0 300px 0;
+}
+
+/*.simple-road-sign-right{
+	position:relative;
+	background:#590;
+	width:400px;
+	padding:20px;
+}
+.simple-road-sign-right:before{
+	content:"";
+	position:absolute;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 27.5px 0 20.5px 417px;
+	border-color: transparent transparent transparent #590;
+	top: -77px;
+	left:0;
+}*/
